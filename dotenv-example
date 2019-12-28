@@ -1,0 +1,11 @@
+# Comma-separated usernames the app should check for existence
+DESIRED_USERNAMES='batman, superman, flash, wonderwoman'
+
+# Your SendGrid API key
+SENDGRID_API_KEY=
+
+# Which e-mail the message is being send from
+EMAIL_FROM=
+
+# To which e-mail the message should be send to
+EMAIL_TO=mab@mab.lu

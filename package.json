@@ -1,0 +1,21 @@
+{
+    "name": "twitter-username-bot",
+    "version": "1.0.0",
+    "description": "Checks periodically if a twitter username is occupied. If it becomes available, it sends an e-mail",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Marc Backes",
+    "license": "ISC",
+    "dependencies": {
+        "@sendgrid/mail": "^6.4.0",
+        "dotenv": "^8.2.0",
+        "twitter-checker": "^1.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
