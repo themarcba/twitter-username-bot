@@ -8,4 +8,4 @@ SENDGRID_API_KEY=
 EMAIL_FROM=
 
 # To which e-mail the message should be send to
-EMAIL_TO=mab@mab.lu
+EMAIL_TO=
