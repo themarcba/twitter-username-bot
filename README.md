@@ -36,6 +36,15 @@ You need the following data to fill out:
 - The e-mail you want to send the e-mail to
 - List of desired usernames (this need to be entered comma-separated, as in the example)
 
+Here is an example file:
+
+```bash
+DESIRED_USERNAMES='batman, superman, flash, wonderwoman'
+SENDGRID_API_KEY=mysupersecreatapikeygiventomebysendgrid
+EMAIL_FROM=bot@example.com
+EMAIL_TO=youremail@example.com
+```
+
 ## Run
 ```bash
 npm run start
